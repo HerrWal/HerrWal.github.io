@@ -40,6 +40,7 @@ app.use((req, res, next) => {
     err.status = 404;
     err.message = 'The page you are trying to reach is not found';
     console.log(err);
+    next(err);
 });
 
 // Global error handler
