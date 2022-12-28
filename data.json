@@ -2,39 +2,39 @@
     "projects": [
         {
             "id": 0,
-            "project_name": null,
-            "description": null,
-            "technologies": null,
+            "project_name": "Random Quote Generator",
+            "description": "This is a random quote generator app from a selection of some of my favorite quotes found in the web from personalities, characters and authors.",
+            "technologies": ["JavaScript", "CSS", "HTML"],
             "live_link": null,
-            "github_link": null,
-            "image_urls": null
+            "github_link": "https://github.com/HerrWal/Random-Quote-Generator",
+            "image_urls": ["images/Random quote generator/Main shot 2.JPG", "images/Random quote generator/landscape 1.JPG"]
         },
         {
             "id": 1,
-            "project_name": null,
-            "description": null,
-            "technologies": null,
+            "project_name": "Data Pagination and Filtering",
+            "description": "Is an app that takes an array of student objects, displays a list on the page with each student and then paginates it in multiples of 9 by each page.",
+            "technologies": ["JavaScript", "CSS", "HTML"],
             "live_link": null,
-            "github_link": null,
-            "image_urls": null
+            "github_link": "https://github.com/HerrWal/Data-pagination-and-filtering",
+            "image_urls": ["images/Data Pagination and Filtering/Main shot.JPG", "images/Random quote generator/landscape 1.JPG", "images/Data Pagination and Filtering/Landscape 2.JPG", "images/Random quote generator/Main shot 3.JPG"]
         },
         {
             "id": 2,
-            "project_name": null,
-            "description": null,
-            "technologies": null,
+            "project_name": "Interactive Form",
+            "description": "A responsive and accessible web form using HTML, CSS and JavaScript.",
+            "technologies": ["JavaScript", "CSS", "HTML"],
             "live_link": null,
-            "github_link": null,
-            "image_urls": null
+            "github_link": "https://github.com/HerrWal/Interactive-Form",
+            "image_urls": ["images/Interactive Form/Main shot.JPG","images/Interactive Form/Landscape 1.JPG", "images/Interactive Form/Landscape 2.JPG", "images/Interactive Form/Landscape 3.JPG"]
         },
         {
             "id": 3,
-            "project_name": null,
-            "description": null,
-            "technologies": null,
+            "project_name": "OOP-Game-Show-App",
+            "description": "A browser-based, word guessing game: 'Phrase Hunter.' created using OOP principles",
+            "technologies": ["JavaScript", "CSS", "HTML"],
             "live_link": null,
-            "github_link": null,
-            "image_urls": null
+            "github_link": "https://github.com/HerrWal/OOP-Game-Show-App",
+            "image_urls": ["images/OOP Game/Main shot.JPG", "images/OOP Game/Landscape 1.JPG", "images/OOP Game/Landscape 2.JPG"]
         }
     ]
 }
