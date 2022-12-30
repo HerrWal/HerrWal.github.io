@@ -7,7 +7,7 @@
             "technologies": ["JavaScript", "CSS", "HTML"],
             "live_link": null,
             "github_link": "https://github.com/HerrWal/Random-Quote-Generator",
-            "image_urls": ["/images/Random_quote_generator/Main_shot.JPG", "/images/Random_quote_generator/landscape1.JPG"]
+            "image_urls": ["static/images/Random_quote_ generator/Main_shot.JPG", "static/images/Random_quote_generator/landscape1.JPG"]
         },
         {
             "id": 1,
@@ -16,7 +16,7 @@
             "technologies": ["JavaScript", "CSS", "HTML"],
             "live_link": null,
             "github_link": "https://github.com/HerrWal/Data-pagination-and-filtering",
-            "image_urls": ["/images/Data_Pagination_and_Filtering/Main_shot.jpg", "images/Data_Pagination_and_Filtering/Landscape1.JPG", "images/Data Pagination and Filtering/Landscape 2.JPG", "images/Random quote generator/Main shot 3.JPG"]
+            "image_urls": ["static/images/Data_Pagination_and_Filtering/Main_shot.jpg", "static/images/Data_Pagination_and_Filtering/Landscape1.JPG", "static/images/Data_Pagination_and_Filtering/Landscape2.JPG", "static/images/Data_Pagination_and_Filtering/Landscape3.JPG"]
         },
         {
             "id": 2,
@@ -25,7 +25,7 @@
             "technologies": ["JavaScript", "CSS", "HTML"],
             "live_link": null,
             "github_link": "https://github.com/HerrWal/Interactive-Form",
-            "image_urls": ["/images/Interactive Form/Main shot.JPG","images/Interactive Form/Landscape 1.JPG", "images/Interactive Form/Landscape 2.JPG", "images/Interactive Form/Landscape 3.JPG"]
+            "image_urls": ["static/images/Interactive_Form/Main_shot.JPG","static/images/Interactive_Form/Landscape1.JPG", "static/images/Interactive_Form/Landscape2.JPG", "static/images/Interactive_Form/Landscape3.JPG"]
         },
         {
             "id": 3,
@@ -34,16 +34,16 @@
             "technologies": ["JavaScript", "CSS", "HTML"],
             "live_link": null,
             "github_link": "https://github.com/HerrWal/OOP-Game-Show-App",
-            "image_urls": ["/images/OOP Game/Main shot.JPG", "images/OOP Game/Landscape 1.JPG", "images/OOP Game/Landscape 2.JPG"]
+            "image_urls": ["static/images/OOP_Game/Main_shot.JPG", "/static/images/OOP_Game/Landscape1.JPG", "/static/images/OOP_Game/Landscape2.JPG"]
         },
         {
             "id": 4,
-            "project_name": "OOP-Game-Show-App",
-            "description": "A browser-based, word guessing game: 'Phrase Hunter.' created using OOP principles",
+            "project_name": "Public API Request website",
+            "description": "An app for a fictional company to display employees contact information.The app was made using Fetch to retrieve data from randomuser.me, a free api used to generate random users data. We use it to generate a list of twelve contact cards for each contact.",
             "technologies": ["JavaScript", "CSS", "HTML"],
             "live_link": null,
-            "github_link": "https://github.com/HerrWal/OOP-Game-Show-App",
-            "image_urls": ["images/OOP Game/Main shot.JPG", "images/OOP Game/Landscape 1.JPG", "images/OOP Game/Landscape 2.JPG"]
+            "github_link": "https://github.com/HerrWal/public-api-requests",
+            "image_urls": ["static/images/Public_API_ Request_app/Main_shot.JPG", "static/images/Public_API_ Request_app/Landscape1.JPG", "static/images/Public_API_ Request_app/Landscape2.JPG"]
         }
     ]
 }
