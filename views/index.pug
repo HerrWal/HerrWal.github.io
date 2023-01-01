@@ -22,7 +22,7 @@ block content
           //- The project title for the h5 element's text
 
         .cell
-          a(href=`${project.github_link}`)
+          a(href=`${project.live_link}` target="_blank")
             img.thumbnail(src=`${project.image_urls[0]}`, alt=`${project.project_name}`)
             h5= project.project_name
 

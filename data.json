@@ -5,7 +5,7 @@
             "project_name": "Random Quote Generator",
             "description": "This is a random quote generator app from a selection of some of my favorite quotes found in the web from personalities, characters and authors.",
             "technologies": ["JavaScript", "CSS", "HTML"],
-            "live_link": null,
+            "live_link": "https://herrwal.github.io/Random-Quote-Generator/",
             "github_link": "https://github.com/HerrWal/Random-Quote-Generator",
             "image_urls": ["static/images/Random_quote_ generator/Main_shot.JPG", "static/images/Random_quote_generator/landscape1.JPG"]
         },
@@ -14,7 +14,7 @@
             "project_name": "Data Pagination and Filtering",
             "description": "Is an app that takes an array of student objects, displays a list on the page with each student and then paginates it in multiples of 9 by each page.",
             "technologies": ["JavaScript", "CSS", "HTML"],
-            "live_link": null,
+            "live_link": "https://herrwal.github.io/Data-pagination-and-filtering/",
             "github_link": "https://github.com/HerrWal/Data-pagination-and-filtering",
             "image_urls": ["static/images/Data_Pagination_and_Filtering/Main_shot.jpg", "static/images/Data_Pagination_and_Filtering/Landscape1.JPG", "static/images/Data_Pagination_and_Filtering/Landscape2.JPG", "static/images/Data_Pagination_and_Filtering/Landscape3.JPG"]
         },
@@ -23,7 +23,7 @@
             "project_name": "Interactive Form",
             "description": "A responsive and accessible web form using HTML, CSS and JavaScript.",
             "technologies": ["JavaScript", "CSS", "HTML"],
-            "live_link": null,
+            "live_link": "https://herrwal.github.io/Interactive-Form/",
             "github_link": "https://github.com/HerrWal/Interactive-Form",
             "image_urls": ["static/images/Interactive_Form/Main_shot.JPG","static/images/Interactive_Form/Landscape1.JPG", "static/images/Interactive_Form/Landscape2.JPG", "static/images/Interactive_Form/Landscape3.JPG"]
         },
@@ -32,7 +32,7 @@
             "project_name": "OOP-Game-Show-App",
             "description": "A browser-based, word guessing game: 'Phrase Hunter.' created using OOP principles",
             "technologies": ["JavaScript", "CSS", "HTML"],
-            "live_link": null,
+            "live_link": "https://herrwal.github.io/OOP-Game-Show-App/",
             "github_link": "https://github.com/HerrWal/OOP-Game-Show-App",
             "image_urls": ["static/images/OOP_Game/Main_shot.JPG", "/static/images/OOP_Game/Landscape1.JPG", "/static/images/OOP_Game/Landscape2.JPG"]
         },
@@ -41,7 +41,7 @@
             "project_name": "Public API Request website",
             "description": "An app for a fictional company to display employees contact information.The app was made using Fetch to retrieve data from randomuser.me, a free api used to generate random users data. We use it to generate a list of twelve contact cards for each contact.",
             "technologies": ["JavaScript", "CSS", "HTML"],
-            "live_link": null,
+            "live_link": "https://herrwal.github.io/public-api-requests-website/",
             "github_link": "https://github.com/HerrWal/public-api-requests",
             "image_urls": ["static/images/Public_API_ Request_app/Main_shot.JPG", "static/images/Public_API_ Request_app/Landscape1.JPG", "static/images/Public_API_ Request_app/Landscape2.JPG"]
         }
