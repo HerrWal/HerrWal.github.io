@@ -34,7 +34,7 @@
             "technologies": ["JavaScript", "CSS", "HTML"],
             "live_link": "https://herrwal.github.io/OOP-Game-Show-App/",
             "github_link": "https://github.com/HerrWal/OOP-Game-Show-App",
-            "image_urls": ["static/images/OOP_Game/Main_shot.JPG", "/static/images/OOP_Game/Landscape1.JPG", "/static/images/OOP_Game/Landscape2.JPG"]
+            "image_urls": ["static/images/OOP_Game/Main_shot.JPG", "static/images/OOP_Game/Landscape1.JPG", "static/images/OOP_Game/Landscape2.JPG"]
         },
         {
             "id": 4,
