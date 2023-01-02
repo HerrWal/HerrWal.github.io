@@ -7,7 +7,7 @@
             "technologies": ["JavaScript", "CSS", "HTML"],
             "live_link": "https://herrwal.github.io/Random-Quote-Generator/",
             "github_link": "https://github.com/HerrWal/Random-Quote-Generator",
-            "image_urls": ["static/images/Random_quote_ generator/Main_shot.JPG", "static/images/Random_quote_generator/landscape1.JPG"]
+            "image_urls": ["static/images/Random_quote_generator/Main_shot.JPG", "static/images/Random_quote_generator/landscape1.JPG"]
         },
         {
             "id": 1,
