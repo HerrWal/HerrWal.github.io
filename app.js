@@ -49,9 +49,6 @@ app.use((req, res, next) => {
 app.use((err, req, res, next) => {
   // After the 404 handler in app.js add a global error handler that will deal with any server errors the app encounters. This handler should ensure that there is an err.status property and an err.message property if they don't already exist, and then log out the err object's message and status.
 
-  if (err) {
-
-  }
   res.status(err.status || 500);
   res.send(err.message);
   console.log("Whoops, an error has ocurred!");
