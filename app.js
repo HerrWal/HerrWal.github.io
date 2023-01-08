@@ -25,8 +25,12 @@ app.get("/about", (req, res) => {
 // projects route
 app.get("/projects/:id", (req, res) => {
   const projectId = req.params.id;
-  const project = projects.find(({ id }) => id === +projectId);  
-  res.render("project", { project });
+  const project = projects.find(({ id }) => id === +projectId);
+  if (project) {
+    res.render("project", { project });
+  } else {
+    res.status(404).sendStatus(404);
+  } 
 });
 
 // error route
@@ -35,18 +39,17 @@ app.get("/error", (req, res, next) => {
   const err = new Error();
   err.message = `500 error thrown`
   err.status = 500;
-  res.next(err);
+  throw(err);
 });
 
 /* Error handlers */
 
 // 404 errorhandler
 app.use((req, res, next) => {
-  console.log('404 handler called');
-  const err = new Error("The page you are trying to reach is not found");
-  err.status = 404;
-  console.log(err);
-  next(err);
+    const err = new Error();
+    err.status = 404;
+    err.message = "The page you are trying to reach is not found";
+    next(err);
 });
 
 // Global error handler
@@ -59,11 +62,15 @@ app.use((req, res, next) => {
 // });
 
 app.use((err, req, res, next) => {
-  console.log('global Handler called');
-  res.status(err.status || 500);
-  res.send(err.message);
-  console.log("Whoops, an error has ocurred!");
-  console.error(err);
+  if (err.status === 404) {
+    res.status(err.status);
+    res.send(err.message);
+  } else {
+    res.status(500);
+    res.send(err.message);
+    console.log("Whoops, an error has ocurred!");
+    console.error(err);
+  }    
 });
 
 // Server setup
