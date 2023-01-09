@@ -1,3 +1,4 @@
+// Setting the express server
 const express = require("express");
 const app = express();
 const data = require("./data.json");
@@ -5,7 +6,9 @@ const { projects } = data;
 // the path module which can be used when setting the absolute path in the express.static function.
 const path = require("path");
 
+// Setting the view engine to pug
 app.set("view engine", "pug");
+
 
 /* Routes */
 
@@ -29,7 +32,10 @@ app.get("/projects/:id", (req, res) => {
   if (project) {
     res.render("project", { project });
   } else {
-    res.status(404).sendStatus(404);
+    const err = new Error();
+    err.status = 404;
+    err.message = "This project number does not exist";
+    throw(err);
   } 
 });
 
@@ -37,7 +43,7 @@ app.get("/projects/:id", (req, res) => {
 app.get("/error", (req, res, next) => {
   console.log('Error route called');
   const err = new Error();
-  err.message = `500 error thrown`
+  err.message = "Whoops, an error has ocurred!"
   err.status = 500;
   throw(err);
 });
@@ -53,22 +59,14 @@ app.use((req, res, next) => {
 });
 
 // Global error handler
-// app.use((err, req, res, next) => {
-//   console.log('global Handler called');
-//   res.status(err.status || 500);
-//   res.send(err.message);
-//   console.log("Whoops, an error has ocurred!");
-//   console.error(err);
-// });
-
 app.use((err, req, res, next) => {
   if (err.status === 404) {
     res.status(err.status);
-    res.send(err.message);
+    res.render('page-not-found', { err });
+    console.error(err);
   } else {
     res.status(500);
-    res.send(err.message);
-    console.log("Whoops, an error has ocurred!");
+    res.render('error', { err });
     console.error(err);
   }    
 });

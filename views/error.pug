@@ -1,0 +1,13 @@
+extend layout 
+
+block content
+  
+    nav.nav
+        a(href='/')
+          span &larr;
+          |  Back
+
+    //-
+    article.error
+        h1= `${err.message} - Status: ${err.status}`
+        p= err.stack

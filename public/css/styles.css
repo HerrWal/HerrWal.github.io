@@ -300,6 +300,14 @@ nav a span {
   border: 1px solid transparent;
 }
 
+/*
+  Error layout
+*/
+  .error {
+    max-width: 1200px;
+    padding: 40px 50px 30px;
+  }
+  
 
 /* 
   Tablet layout styles 
