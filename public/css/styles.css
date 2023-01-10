@@ -370,3 +370,99 @@ nav a span {
     max-width: 1200px;
   }
 }
+
+/*
+  New Styles @extra credit
+*/
+
+/* sidebar */
+.sidebar {
+  background: #252422;
+}
+
+.dev-intro-box h5 {
+  color: #fffcf2;
+}
+
+.dev-intro-box p {
+  color: #ccc5b9;
+}
+
+.dev-intro-box a {
+  color: #fffcf2;
+}
+
+/* Portfolrio intro */
+.portfolio-intro {
+  background: #403d39;
+}
+
+.portfolio-intro h1 {
+  color: #eb5e28;
+}
+
+.portfolio-intro p {
+  color: #fffcf2;
+}
+
+/* Other styles */
+article {
+  background: #403d39;
+}
+
+.wrapper {
+  background: #403d39;
+}
+
+.nav {
+  color: #403d39;
+}
+
+.nav a {
+  color: #fffcf2;
+}
+
+.box {
+  background: #403d39;
+}
+
+.projects-box h5 {
+  color: #fffcf2;
+}
+
+.box h1 {
+  color: #eb5e28;
+}
+
+.box p {
+  color: #fffcf2;
+}
+
+.project-tech-links-box h6 {
+  color: #fffcf2;
+}
+
+.project-tech-links-box li {
+  color: #ccc5b9;
+}
+
+.btn-link:hover {
+  color: #333;
+  background-color: #fefefe;
+}
+
+.skills-contact-box h6 {
+  color: #fffcf2;
+}
+
+.skills-contact-box li {
+  color: #ccc5b9;
+}
+
+.error h1 {
+  color: #eb5e28;
+}
+
+.error p {
+  color: #fffcf2
+}
