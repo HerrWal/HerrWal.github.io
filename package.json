@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/HerrWal/Static-Node.js-and-Express-Site/issues"
   },
-  "homepage": "https://herrwal.github.io/",
+  "homepage": "https://herrwal.github.io/HerrWal.github.io",
   "dependencies": {
     "body-parser": "^1.20.1",
     "express": "^4.18.2",
