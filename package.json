@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HerrWal/Static-Node.js-and-Express-Site.git"
+    "url": "git+https://github.com/HerrWal/HerrWal.github.io.git"
   },
   "author": "HerrWal",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/HerrWal/Static-Node.js-and-Express-Site/issues"
+    "url": "https://github.com/HerrWal/HerrWal.github.io/issues"
   },
   "homepage": "https://herrwal.github.io/HerrWal.github.io",
   "dependencies": {
