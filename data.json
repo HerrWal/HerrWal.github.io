@@ -16,7 +16,7 @@
             "technologies": ["JavaScript", "CSS", "HTML"],
             "live_link": "https://herrwal.github.io/Data-pagination-and-filtering/",
             "github_link": "https://github.com/HerrWal/Data-pagination-and-filtering",
-            "image_urls": ["static/images/Data_Pagination_and_Filtering/Main_shot.jpg", "static/images/Data_Pagination_and_Filtering/Landscape1.JPG", "static/images/Data_Pagination_and_Filtering/Landscape2.JPG", "static/images/Data_Pagination_and_Filtering/Landscape3.JPG"]
+            "image_urls": ["static/images/Data_Pagination_and_Filtering/Main_shot.JPG", "static/images/Data_Pagination_and_Filtering/Landscape1.JPG", "static/images/Data_Pagination_and_Filtering/Landscape2.JPG", "static/images/Data_Pagination_and_Filtering/Landscape3.JPG"]
         },
         {
             "id": 2,
